@@ -3,7 +3,7 @@
 
 import Foundation
 
-struct PhotoInfoModel: Decodable, Hashable, Identifiable {
+struct PhotoInfoModel: Decodable, Identifiable {
     let id: Int
     let title: String
     let url: String
